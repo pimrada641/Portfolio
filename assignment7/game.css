@@ -1,0 +1,66 @@
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: hsla(0, 100%, 30%, 0.3);;
+    border: 3px solid white;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
+
+legend{
+    font-size: 30px;
+}
+
+body{
+    background-image: url(pic/bg.jpg);
+    color: white;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family: 'Tw Cen MT', 'Times New Roman', Times, serif;
+}
+
+fieldset{
+    text-align: center;
+    border-color: white;
+}
+
+#timerClock{
+    font-size: 25px;
+}
+
+input{
+    background-color:rgb(202, 183, 236);
+}
+
+button{
+    background-color:rgb(207, 76, 116);
+}
+#credit{
+    font-size: 20px;
+    bottom: 0%;
+    position: fixed;
+}

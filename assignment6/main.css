@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(255, 217, 228, 0.486);
+    background-image: url(pic/bg.jpg);
+    background-blend-mode: lighten;
+}
+
+div{
+    border: 2px solid rgb(185, 93, 93);
+    background-color: azure;
+    margin: auto;
+    height: 50px;
+}
+
+img{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+fieldset{
+    display: block;
+    border-color:brown;
+    border-style: dotted;
+    text-align: center;
+    font-family: 'Tw Cen MT', 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+span{
+    color: red;
+}
+legend{
+    font-family: 'Tw Cen MT', 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    color: rgb(182, 62, 98);
+    text-align: center;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+#credit{
+    font-size: 14px;
+    color: black;
+}
